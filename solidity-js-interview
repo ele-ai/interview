@@ -1,16 +1,20 @@
-# Advanced Solidity Interview Questions
+---
+Q1: What are the differences between `delegatecall` and `call` in Solidity?
 
-1. **What are the differences between `delegatecall` and `call` in Solidity?**
-   - Discuss their implications on context and state changes, and provide examples of when to use each.
+A1: Discuss their implications on context and state changes, and provide examples of when to use each.
+---
+Q2: How would you implement upgradable smart contracts?
 
-2. **How would you implement upgradable smart contracts?**
-   - Discuss different patterns (like the proxy pattern) and their trade-offs in terms of complexity and security.
+A2: Discuss different patterns (like the proxy pattern) and their trade-offs in terms of complexity and security.
+---
+Q3: What is a “reentrancy attack,” and how can it be prevented?
 
-3. **What is a “reentrancy attack,” and how can it be prevented?**
-   - Provide examples of vulnerable patterns and describe best practices to mitigate such attacks.
+A3: Provide examples of vulnerable patterns and describe best practices to mitigate such attacks.
+---
+Q4: Explain the concept of "EIP-721" and how to implement an ERC-721 token.
 
-4. **Explain the concept of "EIP-721" and how to implement an ERC-721 token.**
-   - What are the key functions and events required for a non-fungible token, and how does it differ from ERC-20?
+A4: What are the key functions and events required for a non-fungible token, and how does it differ from ERC-20?
+---
+Q5:What is the "Circuit Breaker" pattern, and how can it be implemented in a contract?
 
-5. **What is the "Circuit Breaker" pattern, and how can it be implemented in a contract?**
-   - Explain how this pattern can be used to pause operations in emergencies and provide an example.
+A5:Explain how this pattern can be used to pause operations in emergencies and provide an example.
